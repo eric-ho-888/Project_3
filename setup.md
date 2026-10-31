@@ -22,7 +22,7 @@ cd Project_3
 
 # 2. Create the conda environment
 conda env create -f environment.yml
-conda activate dsai-m3
+conda activate m3t3
 
 # 3. Install the L01 extras (Hugging Face transformers + torch)
 pip install transformers torch
@@ -33,7 +33,7 @@ code .
 
 Then in VS Code:
 1. Open `notebooks/01_check_data.ipynb`
-2. Top-right → **Select Kernel** → `dsai-m3` (Python 3.11)
+2. Top-right → **Select Kernel** → `m3t3` (Python 3.11)
 3. **Run All**
 
 If a notebook hangs or errors, scroll down to **Troubleshooting**.
@@ -102,7 +102,7 @@ From the cloned repo root:
 
 ```bash
 conda env create -f environment.yml
-conda activate dsai-m3
+conda activate m3t3
 ```
 
 This creates an environment named `dsai-m3` with Python 3.11 and the L01 baseline packages.
@@ -127,7 +127,7 @@ Use this when the environment is broken (import errors, version conflicts, half-
 
 ```bash
 cd ~/repos/Project_3
-conda activate dsai-m3
+conda activate m3t3
 conda env update -f environment.yml --prune
 ```
 
@@ -138,12 +138,12 @@ conda env update -f environment.yml --prune
 ```bash
 # 1. Leave the env, then delete it
 conda deactivate
-conda env remove -n dsai-m3
+conda env remove -n m3t3
 
 # 2. Re-create it from the repo root
 cd ~/repos/Project_3
 conda env create -f environment.yml
-conda activate dsai-m3
+conda activate m3t3
 
 # 3. Re-install the L01 extras (safe to repeat)
 pip install transformers torch
@@ -152,7 +152,7 @@ pip install transformers torch
 **Then check it worked:**
 
 ```bash
-conda env list                      # dsai-m3 should appear
+conda env list                      # m3t3 should appear
 python --version                    # Python 3.11.x
 python -c "import torch, transformers, sklearn; print('ok')"
 ```
