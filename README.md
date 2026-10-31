@@ -1,13 +1,13 @@
 
 ## Before you start — environment setup
 
-> **If this is your first time with this course, do this before anything else.**
+> **If this is your first time with this project, do this before anything else.**
 >
 > Follow the [**Setup Guide →**](./setup.md) to install the Python environment. It takes 10–15 minutes. The same environment works for all 10 lessons.
 
 ---
 
-## What you will be able to do by the end
+## What you will be able to do with this project
 
 - **Explain** what Machine Learning is and how it differs from traditional rule-based programming
 - **Identify** the three main categories of ML (supervised, unsupervised, reinforcement) and give a business example of each

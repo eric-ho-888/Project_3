@@ -42,7 +42,7 @@ If a notebook hangs or errors, scroll down to **Troubleshooting**.
 
 ## 1. Install Python via Miniconda
 
-We use conda to manage a self-contained Python environment for the course. This avoids polluting your system Python.
+We use conda to manage a self-contained Python environment for the project. This avoids polluting your system Python.
 
 ### macOS (Apple Silicon)
 
