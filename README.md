@@ -47,3 +47,8 @@ notebooks/
   07_random_forest.ipynb           ← Setup for random forest
   08_tuning_and_comparison.ipynb           ← Setup for tuning and comparison
 ```
+
+## The dataset is taken from Kaggle, you may refer to below URL:
+
+`Credit Card Fraud Detection 2026`
+(https://www.kaggle.com/datasets/uditjain13/credit-card-fraud-detection-2026)
