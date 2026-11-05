@@ -22,7 +22,7 @@
 
 | # | Notebook | What you explore |
 |---|---|---|
-| 01 | [`01_check_data.ipynb`](./notebooks/o1_check_data.ipynb) | Check / Load / Inspect data |
+| 01 | [`01_check_data.ipynb`](./notebooks/01_check_data.ipynb) | Check / Load / Inspect data |
 | 02 | [`02_preprocessing.ipynb`](./notebooks/02_preprocessing.ipynb) | Split / Impute / Scale / Encode / Column Transfer |
 | 03 | [`03_train_validate.ipynb`](./notebooks/03_train_validate.ipynb) | Built the full pipeline / Fitted on training data / Inspected coefficients / 5-fold CV accuracy |
 | 04 | [`04_matrics_threshold.ipynb`](./notebooks/04_matrics_threshold.ipynb) | Setup for confusion matrix and threshold |
@@ -30,6 +30,10 @@
 | 04 | [`06_gradient_boosting.ipynb`](./notebooks/06_gradient_boosting.ipynb) | Setup for gradient boosting |
 | 04 | [`07_random_forest.ipynb`](./notebooks/07_random_forest.ipynb) | Setup for random forest |
 | 04 | [`08_tuning_and_comparison.ipynb`](./notebooks/08_tuning_and_comparison.ipynb) | Setup for tuning and comparison |
+
+## The PowerPoint Title
+
+[`Catching Fraud at Scale: Why Simplicity Wins`](./doc/Team3_M3_Credit_Card_Fraud_Detection.pptx)
 
 ## File map
 
